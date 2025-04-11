@@ -1,5 +1,5 @@
 streamlit>=1.26.0
-OpenAI migrate
+OpenAI 
 Matplotlib 
 WordCloud 
 pandas
