@@ -1,1 +1,11 @@
 streamlit>=1.26.0
+📦 Built With
+Python 🐍
+
+Streamlit 🎈
+
+OpenAI API 💬
+
+Matplotlib & WordCloud 📊
+
+
