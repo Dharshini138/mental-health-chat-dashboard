@@ -4,7 +4,7 @@ import openai
 def ai_chatbot():
     st.subheader("3. Chat with MindMate AI")
 
-    openai.api_key = "YOUR_OPENAI_API_KEY"  # Replace securely in deployment
+    openai.api_key = "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"  # Replace securely in deployment
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = [{"role": "system", "content": "You are a supportive mental health assistant."}]
