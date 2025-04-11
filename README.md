@@ -18,19 +18,11 @@ A personal wellness companion built using Streamlit that helps you track your me
 🌈 Mood-Based Quotes – Get inspirational messages tailored to your current feelings.
 
 ☁️ Word Cloud of Thoughts – Visualize your most-used words from past journal entries.
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
 
-## GitHub Codespaces
+- Resource
+1streamlit
+openai
+pandas
+matplotlib
+wordcloud
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
