@@ -14,10 +14,17 @@ def ai_chatbot():
         st.session_state.chat_history.append({"role": "user", "content": user_input})
 
         with st.spinner("MindMate is listening..."):
-            response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=st.session_state.chat_history
-            )
+            
+
+client = OpenAI()
+
+response = client.chat.completions.create(
+    model="gpt-3.5-turbo",
+    messages=[{"role": "user", "content": user_input}]
+)
+
+st.write(response.choices[0].message.content)
+
             reply = response.choices[0].message["content"]
             st.session_state.chat_history.append({"role": "assistant", "content": reply})
 
