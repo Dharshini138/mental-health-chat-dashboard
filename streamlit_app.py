@@ -43,7 +43,6 @@ def set_bg_with_overlay():
 set_bg_with_overlay()
 
 # ---------- SETTINGS ----------
-st.set_page_config(page_title="Mental Health Dashboard", layout="centered")
 openai.api_key = "YOUR_OPENAI_API_KEY"  # Replace with your API key
 
 # ---------- UTILS ----------
